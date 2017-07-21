@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en"> 
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Currency Calculator</title>
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <script src="javascripts/modernizr.foundation.js"></script> 
+<script type="text/javascript" src="javascripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+
+</head>
+
+<body>
+
+	<div class="row">
+		<div class="twelve columns">
+		<p align="center"><h4>Currency Converter</h4></p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="twelve columns">
+		<div class="ui-content" >
+<form>
+<fieldset class="ui-grid-b ui-responsive">
+    <label for="">Type in amount and select currency:</label>
+    <input type="text" name="text" id="inputedCurrency" value="" placeholder="0.00">
+    <select name="curreny_one" id="curreny_one" data-native-menu="false" >
+        <option value="">Select Currency</option>
+    </select>
+</fieldset> 
+
+<fieldset class="ui-grid-b ui-responsive">
+    <label for="">Converted Amount:</label>
+    <!-- <label id="convertedCurrency"> Amount</label> -->
+    <input type="text" name="text" id="convertedCurrency" value="" placeholder="0.00">    
+</fieldset>
+</form>
+			</div>
+		</div>
+	</div>
+	
+
+	
+	
+	<div class="row">
+		<div data-role="footer" class="twelve columns">
+		<hr />
+		<p align="center">©2017 Venuka Maddukuri</p>
+		</div>
+	</div>
+</body>
+
+
+</html>
+
